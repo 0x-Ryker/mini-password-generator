@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+    font-family: 'Acme', sans-serif;
+    background-image: url(amb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    padding: 15px 30px;
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: 2px 2px 2px dodgerblue;
+    cursor: pointer;
+}
+
+
+#gen {
+    /* color: rgb(116, 10, 110); */
+    background-color: rgb(107, 224, 224);
+}
+
+
+h1, h3, button {
+    position: relative;
+    animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    text-align: center;
+}
+
+
+ @-webkit-keyframes scale-up-top {
+    0% {
+              transform: scale(0.5);
+              transform-origin: 50% 0%;
+    }
+    100% {
+              transform: scale(1);
+              transform-origin: 50% 0%;
+    }
+  }
+  @keyframes scale-up-top {
+    0% {
+              transform: scale(0.5);
+              transform-origin: 50% 0%;
+    }
+    100% {
+              transform: scale(1);
+              transform-origin: 50% 0%;
+    }
+  }
+  
