@@ -2,6 +2,7 @@
 
 This mini password generator app is built using JavaScript. It generates random passwords that are difficult for hackers to guess.
 
+
 ##How to Use
 
 Open the index.html in your web browser.
@@ -12,11 +13,15 @@ Copy the Password: Once the password is generated, it will be displayed at the b
 
 Paste the Password: Paste the generated password into the desired password field for the account or application you are setting up.
 
+
 ##Technologies Used
 
 HTML
+
 CSS
+
 JavaScript
+
 
 ##Contributions
 
